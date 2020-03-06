@@ -208,17 +208,304 @@ room_099.save()
 room_100.save()
 
 # Link rooms together
-# room_001.connectRooms(room_002, "n")
-# room_002.connectRooms(room_001, "s")
 
-# room_foyer.connectRooms(room_overlook, "n")
-# room_overlook.connectRooms(room_foyer, "s")
+room_001.connectRooms(room_002, "e")
 
-# room_foyer.connectRooms(room_narrow, "e")
-# room_narrow.connectRooms(room_foyer, "w")
+room_002.connectRooms(room_001, "w") # SE Corner
+room_002.connectRooms(room_003, "n")
 
-# room_narrow.connectRooms(room_treasure, "n")
-# room_treasure.connectRooms(room_narrow, "s")
+room_003.connectRooms(room_002, "s") # NE Corner
+room_003.connectRooms(room_004, "w")
+
+room_004.connectRooms(room_003, "e")
+room_004.connectRooms(room_005, "w")
+
+room_005.connectRooms(room_004, "e") # NW Corner
+room_005.connectRooms(room_006, "s")
+
+room_006.connectRooms(room_005, "n")
+room_006.connectRooms(room_007, "s")
+
+room_007.connectRooms(room_006, "n") # SW Corner
+room_007.connectRooms(room_008, "e")
+
+room_008.connectRooms(room_007, "w")
+room_008.connectRooms(room_009, "e")
+
+room_009.connectRooms(room_008, "w")
+room_009.connectRooms(room_010, "e")
+
+room_010.connectRooms(room_009, "w") # SE Corner
+room_010.connectRooms(room_011, "n")
+
+room_011.connectRooms(room_010, "s")
+room_011.connectRooms(room_012, "n")
+
+room_012.connectRooms(room_011, "s")
+room_012.connectRooms(room_013, "n")
+
+room_013.connectRooms(room_012, "s") # NE Corner
+room_013.connectRooms(room_014, "w")
+
+room_014.connectRooms(room_013, "e")
+room_014.connectRooms(room_015, "w")
+
+room_015.connectRooms(room_014, "e")
+room_015.connectRooms(room_016, "w")
+
+room_016.connectRooms(room_015, "e")
+room_016.connectRooms(room_017, "w")
+
+room_017.connectRooms(room_016, "e") # NW Corner
+room_017.connectRooms(room_018, "s")
+
+room_018.connectRooms(room_017, "n")
+room_018.connectRooms(room_019, "s")
+
+room_019.connectRooms(room_018, "n")
+room_019.connectRooms(room_020, "s")
+
+room_020.connectRooms(room_019, "n")
+room_020.connectRooms(room_021, "s")
+
+room_021.connectRooms(room_020, "n") # SW Corner
+room_021.connectRooms(room_022, "e")
+
+room_022.connectRooms(room_021, "w")
+room_022.connectRooms(room_023, "e")
+
+room_023.connectRooms(room_022, "w")
+room_023.connectRooms(room_024, "e")
+
+room_024.connectRooms(room_023, "w")
+room_024.connectRooms(room_025, "e")
+
+room_025.connectRooms(room_024, "w")
+room_025.connectRooms(room_026, "e")
+
+room_026.connectRooms(room_025, "w") # SE Corner
+room_026.connectRooms(room_027, "n")
+
+room_027.connectRooms(room_026, "s")
+room_027.connectRooms(room_028, "n")
+
+room_028.connectRooms(room_027, "s")
+room_028.connectRooms(room_028, "n")
+
+room_029.connectRooms(room_028, "s")
+room_029.connectRooms(room_030, "n")
+
+room_030.connectRooms(room_029, "s")
+room_030.connectRooms(room_031, "n")
+
+room_031.connectRooms(room_030, "s") # NE Corner
+room_031.connectRooms(room_032, "w")
+
+room_032.connectRooms(room_031, "e")
+room_032.connectRooms(room_033, "w")
+
+room_033.connectRooms(room_031, "e")
+room_033.connectRooms(room_034, "w")
+
+room_034.connectRooms(room_033, "e")
+room_034.connectRooms(room_035, "w")
+
+room_035.connectRooms(room_034, "e")
+room_035.connectRooms(room_036, "w")
+
+room_036.connectRooms(room_035, "e")
+room_036.connectRooms(room_037, "w")
+
+room_037.connectRooms(room_036, "e") # NW Corner
+room_037.connectRooms(room_038, "s")
+
+room_038.connectRooms(room_037, "n")
+room_038.connectRooms(room_039, "s")
+
+room_039.connectRooms(room_038, "n")
+room_039.connectRooms(room_040, "s")
+
+room_040.connectRooms(room_039, "n")
+room_040.connectRooms(room_041, "s")
+
+room_041.connectRooms(room_040, "n")
+room_041.connectRooms(room_042, "s")
+
+room_042.connectRooms(room_041, "n")
+room_042.connectRooms(room_043, "s")
+
+room_043.connectRooms(room_042, "n") # SW Corner
+room_043.connectRooms(room_044, "e")
+
+room_044.connectRooms(room_043, "w")
+room_044.connectRooms(room_045, "e")
+
+room_045.connectRooms(room_044, "w")
+room_045.connectRooms(room_046, "e")
+
+room_046.connectRooms(room_045, "w")
+room_046.connectRooms(room_047, "e")
+
+room_047.connectRooms(room_046, "w")
+room_047.connectRooms(room_048, "e")
+
+room_048.connectRooms(room_047, "w")
+room_048.connectRooms(room_049, "e")
+
+room_049.connectRooms(room_048, "w")
+room_049.connectRooms(room_050, "e")
+
+room_050.connectRooms(room_049, "w") # SE Corner
+room_050.connectRooms(room_051, "n")
+
+room_051.connectRooms(room_050, "s")
+room_051.connectRooms(room_052, "n")
+
+room_052.connectRooms(room_051, "s")
+room_052.connectRooms(room_053, "n")
+
+room_053.connectRooms(room_052, "s")
+room_053.connectRooms(room_054, "n")
+
+room_054.connectRooms(room_053, "s")
+room_054.connectRooms(room_055, "n")
+
+room_055.connectRooms(room_054, "s")
+room_055.connectRooms(room_056, "n")
+
+room_056.connectRooms(room_055, "s")
+room_056.connectRooms(room_057, "n")
+
+room_057.connectRooms(room_056, "s")
+room_057.connectRooms(room_058, "w")
+
+room_058.connectRooms(room_057, "e")
+room_058.connectRooms(room_059, "w")
+
+room_059.connectRooms(room_058, "e")
+room_059.connectRooms(room_060, "w")
+
+room_060.connectRooms(room_059, "e")
+room_060.connectRooms(room_061, "w")
+
+room_061.connectRooms(room_060, "e")
+room_061.connectRooms(room_062, "w")
+
+room_062.connectRooms(room_061, "e")
+room_062.connectRooms(room_063, "w")
+
+room_063.connectRooms(room_062, "e")
+room_063.connectRooms(room_064, "w")
+
+room_064.connectRooms(room_063, "e")
+room_064.connectRooms(room_065, "w")
+
+room_065.connectRooms(room_064, "e") # NW Corner
+room_065.connectRooms(room_066, "s")
+
+room_066.connectRooms(room_065, "n")
+room_066.connectRooms(room_067, "s")
+
+room_067.connectRooms(room_066, "n")
+room_067.connectRooms(room_068, "s")
+
+room_068.connectRooms(room_067, "n")
+room_068.connectRooms(room_069, "s")
+
+room_069.connectRooms(room_068, "n")
+room_069.connectRooms(room_070, "s")
+
+room_070.connectRooms(room_069, "n")
+room_070.connectRooms(room_071, "s")
+
+room_071.connectRooms(room_070, "n")
+room_071.connectRooms(room_072, "s")
+
+room_072.connectRooms(room_071, "n")
+room_072.connectRooms(room_073, "s")
+
+room_073.connectRooms(room_072, "n") # SW Corner
+room_073.connectRooms(room_074, "e")
+
+room_074.connectRooms(room_073, "w")
+room_074.connectRooms(room_075, "e")
+
+room_075.connectRooms(room_074, "w")
+room_075.connectRooms(room_076, "e")
+
+room_076.connectRooms(room_075, "w")
+room_076.connectRooms(room_077, "e")
+
+room_077.connectRooms(room_076, "w")
+room_077.connectRooms(room_078, "e")
+
+room_078.connectRooms(room_077, "w")
+room_078.connectRooms(room_079, "e")
+
+room_079.connectRooms(room_078, "w")
+room_079.connectRooms(room_080, "e")
+
+room_080.connectRooms(room_079, "w")
+room_080.connectRooms(room_081, "e")
+
+room_081.connectRooms(room_080, "w")
+room_081.connectRooms(room_082, "e")
+
+room_082.connectRooms(room_081, "w") # SE Corner
+room_082.connectRooms(room_083, "n")
+
+room_083.connectRooms(room_082, "s")
+room_083.connectRooms(room_084, "n")
+
+room_084.connectRooms(room_083, "s")
+room_084.connectRooms(room_085, "n")
+
+room_085.connectRooms(room_084, "s")
+room_085.connectRooms(room_086, "n")
+
+room_086.connectRooms(room_085, "s")
+room_086.connectRooms(room_087, "n")
+
+room_087.connectRooms(room_086, "s")
+room_087.connectRooms(room_088, "n")
+
+room_088.connectRooms(room_087, "s")
+room_088.connectRooms(room_089, "n")
+
+room_089.connectRooms(room_088, "s")
+room_089.connectRooms(room_090, "n")
+
+room_090.connectRooms(room_089, "s")
+room_090.connectRooms(room_091, "n")
+
+room_091.connectRooms(room_090, "s") # NE Corner
+room_091.connectRooms(room_092, "w")
+
+room_092.connectRooms(room_091, "e")
+room_092.connectRooms(room_093, "w")
+
+room_093.connectRooms(room_092, "e")
+room_093.connectRooms(room_094, "w")
+
+room_094.connectRooms(room_093, "e")
+room_094.connectRooms(room_095, "w")
+
+room_095.connectRooms(room_094, "e")
+room_095.connectRooms(room_096, "w")
+
+room_096.connectRooms(room_095, "e")
+room_096.connectRooms(room_097, "w")
+
+room_097.connectRooms(room_096, "e")
+room_097.connectRooms(room_098, "w")
+
+room_098.connectRooms(room_097, "e")
+room_098.connectRooms(room_099, "w")
+
+room_099.connectRooms(room_098, "e")
+room_099.connectRooms(room_100, "w")
+
+room_100.connectRooms(room_099, "e") # The End NE Corner
 
 players=Player.objects.all()
 for p in players:
