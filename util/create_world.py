@@ -211,22 +211,22 @@ room_100.save()
 
 room_001.connectRooms(room_002, "e")
 
-room_002.connectRooms(room_001, "w")
+room_002.connectRooms(room_001, "w") # SE Corner
 room_002.connectRooms(room_003, "n")
 
-room_003.connectRooms(room_002, "s")
+room_003.connectRooms(room_002, "s") # NE Corner
 room_003.connectRooms(room_004, "w")
 
 room_004.connectRooms(room_003, "e")
 room_004.connectRooms(room_005, "w")
 
-room_005.connectRooms(room_004, "e")
+room_005.connectRooms(room_004, "e") # NW Corner
 room_005.connectRooms(room_006, "s")
 
 room_006.connectRooms(room_005, "n")
 room_006.connectRooms(room_007, "s")
 
-room_007.connectRooms(room_006, "n")
+room_007.connectRooms(room_006, "n") # SW Corner
 room_007.connectRooms(room_008, "e")
 
 room_008.connectRooms(room_007, "w")
@@ -235,7 +235,7 @@ room_008.connectRooms(room_009, "e")
 room_009.connectRooms(room_008, "w")
 room_009.connectRooms(room_010, "e")
 
-room_010.connectRooms(room_009, "w")
+room_010.connectRooms(room_009, "w") # SE Corner
 room_010.connectRooms(room_011, "n")
 
 room_011.connectRooms(room_010, "s")
@@ -244,7 +244,7 @@ room_011.connectRooms(room_012, "n")
 room_012.connectRooms(room_011, "s")
 room_012.connectRooms(room_013, "n")
 
-room_013.connectRooms(room_012, "s")
+room_013.connectRooms(room_012, "s") # NE Corner
 room_013.connectRooms(room_014, "w")
 
 room_014.connectRooms(room_013, "e")
@@ -256,7 +256,7 @@ room_015.connectRooms(room_016, "w")
 room_016.connectRooms(room_015, "e")
 room_016.connectRooms(room_017, "w")
 
-room_017.connectRooms(room_016, "e")
+room_017.connectRooms(room_016, "e") # NW Corner
 room_017.connectRooms(room_018, "s")
 
 room_018.connectRooms(room_017, "n")
@@ -268,7 +268,7 @@ room_019.connectRooms(room_020, "s")
 room_020.connectRooms(room_019, "n")
 room_020.connectRooms(room_021, "s")
 
-room_021.connectRooms(room_020, "n")
+room_021.connectRooms(room_020, "n") # SW Corner
 room_021.connectRooms(room_022, "e")
 
 room_022.connectRooms(room_021, "w")
@@ -283,7 +283,7 @@ room_024.connectRooms(room_025, "e")
 room_025.connectRooms(room_024, "w")
 room_025.connectRooms(room_026, "e")
 
-room_026.connectRooms(room_025, "w")
+room_026.connectRooms(room_025, "w") # SE Corner
 room_026.connectRooms(room_027, "n")
 
 room_027.connectRooms(room_026, "s")
@@ -298,7 +298,7 @@ room_029.connectRooms(room_030, "n")
 room_030.connectRooms(room_029, "s")
 room_030.connectRooms(room_031, "n")
 
-room_031.connectRooms(room_030, "s")
+room_031.connectRooms(room_030, "s") # NE Corner
 room_031.connectRooms(room_032, "w")
 
 room_032.connectRooms(room_031, "e")
@@ -316,7 +316,7 @@ room_035.connectRooms(room_036, "w")
 room_036.connectRooms(room_035, "e")
 room_036.connectRooms(room_037, "w")
 
-room_037.connectRooms(room_036, "e")
+room_037.connectRooms(room_036, "e") # NW Corner
 room_037.connectRooms(room_038, "s")
 
 room_038.connectRooms(room_037, "n")
@@ -334,7 +334,7 @@ room_041.connectRooms(room_042, "s")
 room_042.connectRooms(room_041, "n")
 room_042.connectRooms(room_043, "s")
 
-room_043.connectRooms(room_042, "n")
+room_043.connectRooms(room_042, "n") # SW Corner
 room_043.connectRooms(room_044, "e")
 
 room_044.connectRooms(room_043, "w")
@@ -355,7 +355,7 @@ room_048.connectRooms(room_049, "e")
 room_049.connectRooms(room_048, "w")
 room_049.connectRooms(room_050, "e")
 
-room_050.connectRooms(room_049, "w")
+room_050.connectRooms(room_049, "w") # SE Corner
 room_050.connectRooms(room_051, "n")
 
 room_051.connectRooms(room_050, "s")
@@ -478,7 +478,7 @@ room_089.connectRooms(room_090, "n")
 room_090.connectRooms(room_089, "s")
 room_090.connectRooms(room_091, "n")
 
-room_091.connectRooms(room_090, "s")
+room_091.connectRooms(room_090, "s") # NE Corner
 room_091.connectRooms(room_092, "w")
 
 room_092.connectRooms(room_091, "e")
@@ -505,7 +505,7 @@ room_098.connectRooms(room_099, "w")
 room_099.connectRooms(room_098, "e")
 room_099.connectRooms(room_100, "w")
 
-room_100.connectRooms(room_099, "e") # The End
+room_100.connectRooms(room_099, "e") # The End NE Corner
 
 players=Player.objects.all()
 for p in players:
